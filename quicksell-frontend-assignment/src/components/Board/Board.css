@@ -1,0 +1,53 @@
+.board-wrapper {
+  min-width: 380px;
+  padding: 8px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.board-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  width: 100%;
+  text-transform: capitalize;
+}
+.board-header-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.board-header-title p {
+  font-weight: 500;
+}
+.board-header-title span {
+  color: gray;
+}
+.board-header-title svg {
+  height: 16px;
+  width: 16px;
+}
+.board-header-options {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+.board-header:hover .board-header-options {
+  opacity: 1;
+}
+.board-header-options svg {
+  height: 18px;
+  width: 18px;
+  color: grey;
+  transition: 0.2s;
+}
+.board-header-options svg:hover {
+  color: black;
+}
+.board-content {
+  overflow-y: auto;
+  height: 74vh;
+}

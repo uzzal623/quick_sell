@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  padding: 15px 32px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 5px;
+  width: 100%;
+}
+.expand-button {
+  display: flex;
+  padding: 3px 6px;
+  width: 115px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  justify-content: space-between;
+  border: 1px solid #dfe1e4;
+  border-radius: 6px;
+  font-weight: 500;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.expand-button svg {
+  height: 18px;
+  width: 18px;
+}
+.dropdown-menu {
+  position: absolute;
+  z-index: 2;
+  top: 52px;
+  left: 30px;
+  background-color: #f8f8fa;
+  border: 0.5px solid #dfe1e4;
+  border-radius: 8px;
+  width: 240px;
+}
+.display-options {
+  display: flex;
+  justify-content: space-evenly;
+  height: 52px;
+  align-items: center;
+}
+.display-options p {
+  font-weight: 500;
+  color: gray;
+}
+.select-dropdown {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #dfe1e4;
+  border-radius: 5px;
+}

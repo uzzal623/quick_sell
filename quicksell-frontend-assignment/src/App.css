@@ -1,0 +1,21 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  width: 100%;
+}
+.boards-container {
+  flex-grow: 1;
+  width: 100vw;
+  overflow-x: auto;
+  padding: 15px 25px;
+}
+.app-boards {
+  display: flex;
+  min-width: max-content;
+  gap: 35px;
+}
+.scroll-box {
+  overflow-y: auto;
+}

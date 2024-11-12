@@ -1,0 +1,21 @@
+.user-container {
+  display: flex;
+}
+.icon-circle {
+  height: 42px;
+  width: 42px;
+  background-color: blue;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 3px 8px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+.status-indicator {
+  position: relative;
+  top: 24px;
+  right: 14px;
+  color: grey;
+}
